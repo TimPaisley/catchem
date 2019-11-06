@@ -1,0 +1,15 @@
+<div class="card flipped" onClick="flip(this)">
+    <div class="back">
+        <div class="title">Smart Council</div>
+    </div>
+
+    <div class="front" style="border-color: #F5A623;">
+        <%= image_tag "placeholder" %>
+        <div class="panel">
+            <div class="name" style="color: #F5A623;"><%= @card.name %></div>
+            <div class="role"><%= @card.role %></div>
+            <div class="ability"><%= @card.first_ability %></div>
+            <div class="ability"><%= @card.second_ability %></div>
+        </div>
+    </div>
+</div>
